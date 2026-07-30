@@ -1,0 +1,46 @@
+{
+  "project_name": "نظام إدارة مدارس",
+  "project_type": "school_management",
+  "color_palette": "slate-900 and indigo-500",
+  "modules": [
+    "طلاب",
+    "معلمين",
+    "درجات",
+    "مواعيد"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list طلاب",
+    "list معلمين",
+    "list درجات",
+    "list مواعيد",
+    "add طلاب",
+    "add معلمين",
+    "add درجات",
+    "add مواعيد"
+  ],
+  "permissions": {
+    "guest": [
+      "login",
+      "register"
+    ],
+    "user": [
+      "list طلاب",
+      "list معلمين",
+      "list درجات",
+      "list مواعيد"
+    ],
+    "admin": [
+      "list طلاب",
+      "list معلمين",
+      "list درجات",
+      "list مواعيد",
+      "add طلاب",
+      "add معلمين",
+      "add درجات",
+      "add مواعيد"
+    ]
+  }
+}
